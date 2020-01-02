@@ -1,0 +1,25 @@
+VertexLitGeneric
+{
+	$basetexture vengeance/clown_texture
+	$ignorez 1
+	$nofog 1
+	$model 1
+	
+	$offset 0.0
+	
+	Proxies
+	{
+		EntityRandom
+		{
+			resultVar $offset
+		}
+		TextureTransform
+		{
+			resultVar $basetexturetransform
+			centerVar [0.5 0.5]
+			scaleVar [1.0 1.0]
+			rotateVar 0.0
+			translateVar $offset
+		}
+	}
+}

@@ -1,0 +1,16 @@
+VertexLitGeneric
+{
+	$basetexture VGUI/white_additive
+	$bumpmap vengeance/normal_up
+	$nofog 1
+	$model 1
+	$additive 1
+	$color "[0.0 0.0 0.0]"
+	$phong 1
+	$phongexponent 96.0
+	$phongboost 12
+	$phongfresnelranges "[0.0 0.5 1.0]"
+	$rimlight 1
+	$rimlightexponent 32.0
+	$rimlightboost 0.75
+}

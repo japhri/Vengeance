@@ -1,0 +1,35 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "vengeance/lava_albedo"
+    "$ignorez" "1"
+    "$bumpmap" "vengeance/lava_normal"
+    "$bumptransform" "center 0.5 0.5 scale 1.0 1.0 rotate 0.0 translate 0.0 0.0"
+    "$nofog" "1"
+    "$model" "1"
+    "$color2" "[0.75 0.75 0.75]"
+    "$envmap" "env_cubemap"
+    "$envmaptint" "[0.1 0.1 0.1]"
+    "$envmapfresnel" "1.0"
+    "$phong" "1"
+    "$phongexponenttexture" "vengeance/lava_exponent"
+    "$phongboost" "0.375"
+    "$phongfresnelranges" "[0.1 0.5 1.0]"
+    "$selfillum" "1"
+    "$selfillummask" "vengeance/lava_emissive_mask"
+    
+    "Proxies"
+    {
+        "TextureScroll"
+        {
+            "textureScrollVar" "$bumptransform"
+            "textureScrollRate" "0.0375"
+            "textureScrollAngle" "0.0"
+        }
+        "TextureScroll"
+        {
+            "textureScrollVar" "$basetexturetransform"
+            "textureScrollRate" "0.0375"
+            "textureScrollAngle" "0.0"
+        }
+    }
+}

@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+    "$basetexture" "VGUI/white_additive"
+    "$ignorez" "1"
+    "$nofog" "1"
+    "$model" "1"
+    "$nocull" "1"
+}

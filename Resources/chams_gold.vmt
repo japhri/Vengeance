@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "VGUI/white_additive"
+    "$bumpmap" "vengeance/normal_up"
+    "$nofog" "1"
+    "$model" "1"
+    "$color2" "[0.5 0.4 0.2]"
+    "$envmap" "env_cubemap"
+    "$envmaptint" "[1.0 0.8 0.4]"
+    "$envmapcontrast" "0.2"
+    "$envmapsaturation" "0.7"
+    "$envmapfresnel" "1.0"
+    "$envmapanisotropy" "1"
+    "$envmapanisotropyscale" "0.75"
+    "$phongfresnelranges" "[0.1 0.5 1.0]"
+}

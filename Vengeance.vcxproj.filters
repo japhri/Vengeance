@@ -1,0 +1,454 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Antiaim.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="Autowall.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="Backtrack.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="ChamsUtils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_dx9.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImRendering.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="BeginFrame.cpp">
+      <Filter>Interfaces/Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateMove.cpp">
+      <Filter>Interfaces/Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameStageNotify.cpp">
+      <Filter>Interfaces/Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneEnd.cpp">
+      <Filter>Interfaces/Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="PaintTraverse.cpp">
+      <Filter>Interfaces/Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Interfaces.cpp">
+      <Filter>Interfaces/Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityStruct.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="EntryPoint.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="MatHelper.cpp">
+      <Filter>Interfaces/Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="OverrideView.cpp">
+      <Filter>Interfaces/Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Offsets.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="NetVarManager.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Misc.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="WndProc.cpp">
+      <Filter>Interfaces/Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Present.cpp">
+      <Filter>Interfaces/Hooks\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Prediction.cpp">
+      <Filter>Interfaces/Hooks\Prediction</Filter>
+    </ClCompile>
+    <ClCompile Include="MD5.cpp">
+      <Filter>Interfaces/Hooks\Prediction</Filter>
+    </ClCompile>
+    <ClCompile Include="Drawing.cpp">
+      <Filter>Features\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Visuals.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="Vec2.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="mrc.cpp">
+      <Filter>Interfaces/Hooks\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DFont.cpp">
+      <Filter>Features\Render</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Antiaim.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Autowall.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="BackTrack.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="ChamsUtils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="VMatrix.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_truetype.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_textedit.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_rect_pack.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imconfig.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_dx9.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_internal.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImRender.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="UserCmd.h">
+      <Filter>Valve</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelRender.h">
+      <Filter>Valve</Filter>
+    </ClInclude>
+    <ClInclude Include="IVEngineClient.h">
+      <Filter>Valve</Filter>
+    </ClInclude>
+    <ClInclude Include="IClientNetworkable.h">
+      <Filter>Valve</Filter>
+    </ClInclude>
+    <ClInclude Include="IBaseClientDLL.h">
+      <Filter>Valve</Filter>
+    </ClInclude>
+    <ClInclude Include="EngienTrace.h">
+      <Filter>Valve</Filter>
+    </ClInclude>
+    <ClInclude Include="dt_common.h">
+      <Filter>Valve</Filter>
+    </ClInclude>
+    <ClInclude Include="dt_recv.h">
+      <Filter>Valve</Filter>
+    </ClInclude>
+    <ClInclude Include="Crc32.h">
+      <Filter>Valve</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Valve</Filter>
+    </ClInclude>
+    <ClInclude Include="CHandle.h">
+      <Filter>Valve</Filter>
+    </ClInclude>
+    <ClInclude Include="CVar.h">
+      <Filter>Valve</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces.h">
+      <Filter>Interfaces/Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK.h">
+      <Filter>Interfaces/Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="xor.h">
+      <Filter>Valve</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityStruct.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="MatHelper.h">
+      <Filter>Interfaces/Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVarManager.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Valve</Filter>
+    </ClInclude>
+    <ClInclude Include="VMTHook.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Variables.h">
+      <Filter>Interfaces/Hooks\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks.h">
+      <Filter>Interfaces/Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="Prediction.h">
+      <Filter>Interfaces/Hooks\Prediction</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5.h">
+      <Filter>Interfaces/Hooks\Prediction</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawing.h">
+      <Filter>Features\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2D.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Visuals.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Vec2.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="mrc.hpp">
+      <Filter>Interfaces/Hooks\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DFont.h">
+      <Filter>Features\Render</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chams_aluminum.vmt">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Resources\chams_aluminum_xqz.vmt">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Resources\chams_cartoon.vmt">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Resources\chams_cartoon_xqz.vmt">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Resources\chams_clown.vmt">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Resources\chams_clown_xqz.vmt">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Resources\chams_dark.vmt">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Resources\chams_dark_xqz.vmt">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Resources\chams_default.vmt">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Resources\chams_default_xqz.vmt">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Resources\chams_ferrofluid.vmt">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Resources\chams_ferrofluid_xqz.vmt">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Resources\chams_flat.vmt">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Resources\chams_flat_xqz.vmt">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Resources\chams_ghost.vmt">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Resources\chams_ghost_xqz.vmt">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Resources\chams_gold.vmt">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Resources\chams_gold_xqz.vmt">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Resources\chams_ice.vmt">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Resources\chams_ice_xqz.vmt">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Resources\chams_lava.vmt">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Resources\chams_lava_xqz.vmt">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Resources\chams_plastic.vmt">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Resources\chams_plastic_xqz.vmt">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Resources\chams_slime.vmt">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Resources\chams_slime_old.vmt">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Resources\chams_slime_xqz.vmt">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Resources\chams_tin_foil.vmt">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Resources\chams_tin_foil_xqz.vmt">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Resources\clown_texture.vtf">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Resources\dark_lightwarp.vtf">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Resources\ice_normal.vtf">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Resources\ice_exponent.vtf">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Resources\ice_albedo.vtf">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Resources\lava_normal.vtf">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Resources\lava_exponent.vtf">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Resources\lava_emissive_mask.vtf">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Resources\lava_albedo.vtf">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Resources\normal_up.vtf">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Resources\posterize_lightwarp.vtf">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Resources\shine_cartoon.vmt">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Resources\shine_highlight.vmt">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Resources\shine_rimlight.vmt">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Resources\slime_albedo.vtf">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Resources\slime_exponent.vtf">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Resources\slime_normal.vtf">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Resources\spread_crosshair.raw">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Resources\tin_foil_normal.vtf">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Resources\super_dark_posterize_lightwarp.vtf">
+      <Filter>Resources</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Features">
+      <UniqueIdentifier>{92212de4-8658-44bb-a6a6-924cd2bd5290}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interfaces/Hooks">
+      <UniqueIdentifier>{760d6579-ecee-49c2-a8c1-9cc357ef40e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Valve">
+      <UniqueIdentifier>{d795263b-9720-4eee-8fd0-ff8b8dd36f50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{00da7a2e-080e-4eed-952b-9f036461e7c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{ebce6937-6989-45c1-ba36-bb4625b60f05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{9d1ef55a-3987-4d82-b288-1275bd17f1c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{c2a8527e-4d7c-4a7d-878c-c43d8d94e7d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interfaces/Hooks\Menu">
+      <UniqueIdentifier>{b1df6439-9930-4441-81fd-04c20319ba07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interfaces/Hooks\Prediction">
+      <UniqueIdentifier>{75d1bc75-86a4-4cd2-b2fb-ba51522b115c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Render">
+      <UniqueIdentifier>{6b5a1f00-c5f2-4ede-8862-a126ac869972}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Resources\hit_sound.wav">
+      <Filter>Resources</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="d3dx9.lib" />
+  </ItemGroup>
+</Project>

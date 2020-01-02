@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "VGUI/white_additive"
+    "$nofog" "1"
+    "$model" "1"
+    "$nocull" "1"
+    "$lightwarptexture" "vengeance/dark_lightwarp"
+}
